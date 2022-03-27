@@ -22,7 +22,8 @@ spec:
         git config --global user.email "manikantareddy.pasala@gmail.com"
         git config --global user.name "Manikanta-Reddy-Pasala"
 
-        git clone -b master https://Manikanta-Reddy-Pasala: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@github.com/Manikanta-Reddy-Pasala/tekton-argocd-poc.git gitops
+        echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDusCFAgYi25ExzqXmaj9dzMG0xUQ9CwSICWGNuOl7eoD4pisXOo5rtPrMjmdckoQllOTkRbp63y5UOKoi6hsFRRDSQ1NmFMWlM+pnIgg3dZyORy65DGyFSs0I64HvynGrfBTJRS1yaTboJSjSYXGzMSeS9/YdHmpqYxYZfiiDiibdzD0Km1J60QiSoyApl2tdMLAKBUS25IRxXOQvzwySc2/yOrGtRS0IE68rQp0Ix2U8woZF0RHpwHRxO64gtZDH2pU5YLS8vvXA86lcJkUYLnrchmX7c+2hQir5oxRWl66Oku7tNxJ+CaB48g4zjKbwvTo37fEFPrDZ2YlxV5p7uMC+JR/m9+/406xqLtvu4QC19bEjoO0yno7T+AXgT7RFR8nDD8vYmwCsGv/47eZ3bdIyMRpYQoEAvQHXAP8E6uUwiLFApz+AMs3A2ovmNn6f6qXiWWpS1ZxwV/mN/DOazhDGJWUWYkcUIn6uwjADMy3jnOWwUUFmLGGE3TRcqHOEDK+R3TAY+XC/oySgDIxxjq9oAAhz8oH+5m6xMGhlMhr3d2k5aGNrVR1Xn+m4MQsh2Edv2TC1s1SLSUcQ2Q99Zw0buYgQRYBUGvN1cEUbz0n1wjIr+ma5XGweErqToqqGvKiM/fRansFVCnaq7jAUMPG6/hIAzKofyqeKvCNMOIw== manikantareddy.pasala@gmail.com" >> ~/.ssh/id_rsa.pub
+
         cd gitops/$(params.deployments-dir)
 
         buildDate=$(date '+%Y%m%d%H%M%S')
