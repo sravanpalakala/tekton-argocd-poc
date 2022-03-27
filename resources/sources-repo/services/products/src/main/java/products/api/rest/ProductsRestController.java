@@ -1,8 +1,8 @@
-package com.jaruiz.tektonpoc.services.products.api.rest;
+package products.api.rest;
 
-import com.jaruiz.tektonpoc.services.products.api.rest.dto.ProductDTO;
-import com.jaruiz.tektonpoc.services.products.business.ProductsService;
-import com.jaruiz.tektonpoc.services.products.business.model.Product;
+import products.api.rest.dto.ProductDTO;
+import products.business.ProductsService;
+import products.business.model.Product;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

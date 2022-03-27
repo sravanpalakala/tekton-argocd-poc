@@ -22,6 +22,8 @@ initK8SResources() {
   kubectl create namespace cicd | true
   kubectl create namespace argocd | true
   kubectl apply -f https://storage.googleapis.com/tekton-releases/pipeline/latest/release.yaml
+  kubectl apply -f https://storage.googleapis.com/tekton-releases/triggers/latest/release.yaml
+  kubectl apply -f https://storage.googleapis.com/tekton-releases/triggers/latest/interceptors.yaml
   kubectl apply -f conf/k8s -n cicd
   kubectl apply -f https://github.com/tektoncd/dashboard/releases/latest/download/tekton-dashboard-release.yaml
   kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml

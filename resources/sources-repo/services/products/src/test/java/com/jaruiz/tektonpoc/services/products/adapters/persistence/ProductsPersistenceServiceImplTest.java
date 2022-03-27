@@ -1,7 +1,7 @@
-package com.jaruiz.tektonpoc.services.products.adapters.persistence;
+package products.adapters.persistence;
 
-import com.jaruiz.tektonpoc.services.products.business.model.Product;
-import com.jaruiz.tektonpoc.services.products.business.ports.persistence.ProductsPersistenceService;
+import products.business.model.Product;
+import products.business.ports.persistence.ProductsPersistenceService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
-package com.jaruiz.tektonpoc.services.products.business;
+package products.business;
 
-import com.jaruiz.tektonpoc.services.products.business.model.Product;
+import products.business.model.Product;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

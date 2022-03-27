@@ -1,4 +1,4 @@
-package com.jaruiz.tektonpoc.services.products.adapters.persistence.entities;
+package products.adapters.persistence.entities;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

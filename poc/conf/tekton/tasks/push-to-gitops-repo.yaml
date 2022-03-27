@@ -22,7 +22,7 @@ spec:
         git config --global user.email "manikantareddy.pasala@gmail.com"
         git config --global user.name "Manikanta-Reddy-Pasala"
 
-        git clone -b master https://Manikanta-Reddy-Pasala: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@github.com/Manikanta-Reddy-Pasala/tekton-argocd-poc.git gitops
+        git clone -b master https://Manikanta-Reddy-Pasala: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@github.com/Manikanta-Reddy-Pasala/tekton-argocd-poc.git gitops
         cd gitops/$(params.deployments-dir)
 
         buildDate=$(date '+%Y%m%d%H%M%S')

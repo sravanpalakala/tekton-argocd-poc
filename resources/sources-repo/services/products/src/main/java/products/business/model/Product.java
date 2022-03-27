@@ -1,4 +1,4 @@
-package com.jaruiz.tektonpoc.services.products.business.model;
+package products.business.model;
 
 import lombok.Builder;
 import lombok.Getter;

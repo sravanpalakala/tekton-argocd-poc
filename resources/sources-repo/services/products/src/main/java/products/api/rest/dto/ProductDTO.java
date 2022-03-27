@@ -1,4 +1,4 @@
-package com.jaruiz.tektonpoc.services.products.api.rest.dto;
+package products.api.rest.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

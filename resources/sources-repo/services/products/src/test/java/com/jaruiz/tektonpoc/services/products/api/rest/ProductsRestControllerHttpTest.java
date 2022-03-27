@@ -1,10 +1,10 @@
-package com.jaruiz.tektonpoc.services.products.api.rest;
+package products.api.rest;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.jaruiz.tektonpoc.services.products.business.ProductsService;
-import com.jaruiz.tektonpoc.services.products.business.model.Product;
-import com.jaruiz.tektonpoc.services.products.api.rest.dto.ProductDTO;
+import products.business.ProductsService;
+import products.business.model.Product;
+import products.api.rest.dto.ProductDTO;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

@@ -1,7 +1,7 @@
-package com.jaruiz.tektonpoc.services.products.business;
+package products.business;
 
-import com.jaruiz.tektonpoc.services.products.business.ports.persistence.ProductsPersistenceService;
-import com.jaruiz.tektonpoc.services.products.business.model.Product;
+import products.business.ports.persistence.ProductsPersistenceService;
+import products.business.model.Product;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

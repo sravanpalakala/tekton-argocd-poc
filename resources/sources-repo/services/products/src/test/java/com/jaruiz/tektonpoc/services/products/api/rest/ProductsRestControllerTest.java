@@ -1,6 +1,6 @@
-package com.jaruiz.tektonpoc.services.products.api.rest;
+package products.api.rest;
 
-import com.jaruiz.tektonpoc.services.products.api.rest.dto.ProductDTO;
+import products.api.rest.dto.ProductDTO;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

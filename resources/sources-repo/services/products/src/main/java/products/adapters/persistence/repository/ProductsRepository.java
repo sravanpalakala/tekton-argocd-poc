@@ -1,6 +1,6 @@
-package com.jaruiz.tektonpoc.services.products.adapters.persistence.repository;
+package products.adapters.persistence.repository;
 
-import com.jaruiz.tektonpoc.services.products.adapters.persistence.entities.ProductEntity;
+import products.adapters.persistence.entities.ProductEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
