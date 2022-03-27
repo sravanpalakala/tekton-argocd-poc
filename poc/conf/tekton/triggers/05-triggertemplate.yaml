@@ -14,7 +14,7 @@ spec:
     - apiVersion: tekton.dev/v1beta1
       kind: PipelineRun
       metadata:
-        generateName: example-ci-pipeline-run-
+        generateName: products-ci-pipelinerun-
       spec:
         pipelineRef:
           name: example-ci-pipeline
