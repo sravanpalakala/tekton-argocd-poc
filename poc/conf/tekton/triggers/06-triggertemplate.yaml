@@ -18,12 +18,28 @@ spec:
       spec:
         pipelineRef:
           name: example-ci-pipeline
-        resources:
-          - name: source
-            resourceSpec:
-              type: git
-              params:
-                - name: revision
-                  value: $(tt.params.gitrevision)
-                - name: url
-                  value: $(tt.params.gitrepositoryurl)
+        serviceAccountName: git-push-service-account
+        params:
+          - name: url
+            value: $(tt.params.gitrepositoryurl)
+          - name: url-gitops
+            value: $(tt.params.gitrepositoryurl)
+          - name: branch
+            value: $(tt.params.gitrevision)
+          - name: working-dir
+            value: './resources/sources-repo/services/products'
+          - name: sonar-url
+            value: 'http://sonarqube-service:9000'
+          - name: image-name
+            value: 'host.k3d.internal:5000/products'
+          - name: deployments-dir
+            value: '/resources/gitops-repo/services/products'
+          - name: deployment-file
+            value: 'products.yaml'
+        workspaces:
+          - name: maven-settings
+            configMap:
+              name: maven-settings
+          - name: ws
+            persistentVolumeClaim:
+              claimName: shared-workspace

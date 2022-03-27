@@ -4,7 +4,7 @@ metadata:
   name: github-pr
   namespace: cicd
 spec:
-  serviceAccountName: tekton-triggers-example-sa
+  serviceAccountName: git-push-service-account
   triggers:
     - name: github-listener
       interceptors:
