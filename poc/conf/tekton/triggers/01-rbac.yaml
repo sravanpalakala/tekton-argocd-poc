@@ -56,7 +56,7 @@ metadata:
 subjects:
 - kind: ServiceAccount
   name: git-push-service-account
-  namespace: default
+  namespace: cicd
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
