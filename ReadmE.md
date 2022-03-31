@@ -32,6 +32,15 @@ kubectl proxy --port=8080
 url: http://localhost:9000
 admin/admin to admin/admin123
 
+## create a webhook
+
+ngrok http 8080
+
+update webhook in github repo with following url and passcode
+
+https://<ngrok url>/hooks
+passcode: 1234567
+
 ## clean up local kubernetes cluster and poc applications
 
-sudo delete-local-cluster.sh
+sudo sh delete-local-cluster.sh
