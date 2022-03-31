@@ -13,12 +13,19 @@ Add Github token to below files
 poc/conf/argocd/git-repository.yaml
 poc/conf/tekton/git-access/secret.yaml
 
+## cleanup docker to avoid issues
+
+docker rm -vf $(docker ps -aq)
+docker rmi -f $(docker images -aq)
+docker system prune -a --volumes
+
 ## Create Kubernetes cluster
 
 sudo sh poc/create-local-cluster.sh
 
 ## setup poc applications
 
+cd poc 
 sudo sh setup-poc.sh
 
 ## port forwarding
