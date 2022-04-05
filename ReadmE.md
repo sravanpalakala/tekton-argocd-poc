@@ -16,7 +16,9 @@ poc/conf/tekton/git-access/secret.yaml
 ## cleanup docker to avoid issues
 
 docker rm -vf $(docker ps -aq)
+
 docker rmi -f $(docker images -aq)
+
 docker system prune -a --volumes
 
 ## Create Kubernetes cluster
