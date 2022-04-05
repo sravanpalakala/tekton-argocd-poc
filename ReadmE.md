@@ -14,6 +14,8 @@ poc/conf/argocd/git-repository.yaml
 poc/conf/tekton/git-access/secret.yaml
 
 ## cleanup docker to avoid issues
+## First tomer skip this step 
+##  it deleted all resources from docker
 
 docker rm -vf $(docker ps -aq)
 
