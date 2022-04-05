@@ -3,8 +3,12 @@
 ## prerequisites
 
 K3D
+
 Docker
+
 Kubectl
+
+Ngrok
 
 ## How to use this application
 
