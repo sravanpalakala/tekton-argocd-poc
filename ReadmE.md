@@ -10,9 +10,15 @@ Kubectl
 
 Ngrok
 
+## fork this repository
+
+checkout forked repository to localmachine
+
+serach for "Manikanta-Reddy-Pasala" and replace with your github user id
+
 ## How to use this application
 
-Add Github token to below files
+Add Github token to below files also 
 
 poc/conf/argocd/git-repository.yaml
 
