@@ -10,6 +10,8 @@ Kubectl
 
 Ngrok
 
+## Disable 5000 port (airplay) for macbook guys
+
 ## fork this repository
 
 checkout forked repository to localmachine
