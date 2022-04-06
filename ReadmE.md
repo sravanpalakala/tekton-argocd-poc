@@ -15,7 +15,10 @@ Ngrok
 Add Github token to below files
 
 poc/conf/argocd/git-repository.yaml
+
 poc/conf/tekton/git-access/secret.yaml
+
+poc/conf/tekton/tasks/push-to-gitops-repo.yaml
 
 ## cleanup docker to avoid issues
 ## First tomer skip this step 
