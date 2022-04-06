@@ -14,6 +14,8 @@ Ngrok
 
 ## fork this repository
 
+while forking please fork it as public repository (***)
+
 checkout forked repository to localmachine
 
 serach for "Manikanta-Reddy-Pasala" and replace with your github user id
