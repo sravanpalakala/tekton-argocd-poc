@@ -16,6 +16,12 @@ checkout forked repository to localmachine
 
 serach for "Manikanta-Reddy-Pasala" and replace with your github user id
 
+## update create-local-cluster.sh file
+
+please chnage below folder as per your local folder structure..
+
+--registry-config "/Users/manikantapasala/Documents/coderepo/POC/tekton-argocd-poc/poc/conf/k3d/tekton-registry.yaml"
+
 ## How to use this application
 
 Add Github token to below files also 
