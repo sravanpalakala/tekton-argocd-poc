@@ -9,9 +9,9 @@ spec:
   serviceAccountName: git-push-service-account
   params:
     - name: url
-      value: 'https://github.com/Manikanta-Reddy-Pasala/tekton-argocd-poc'
+      value: 'https://github.com/sravanpalakala/tekton-argocd-poc'
     - name: url-gitops
-      value: 'https://github.com/Manikanta-Reddy-Pasala/tekton-argocd-poc'
+      value: 'https://github.com/sravanpalakala/tekton-argocd-poc'
     - name: branch
       value: master
     - name: working-dir

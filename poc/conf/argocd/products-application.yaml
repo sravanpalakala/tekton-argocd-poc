@@ -11,7 +11,7 @@ spec:
   source:
     path: "./resources/gitops-repo/services/products"
     repoURL: >-
-      https://github.com/Manikanta-Reddy-Pasala/tekton-argocd-poc
+      https://github.com/sravanpalakala/tekton-argocd-poc
     targetRevision: HEAD
   project: default
   syncPolicy:
